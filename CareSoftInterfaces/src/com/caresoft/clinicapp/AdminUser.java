@@ -7,10 +7,7 @@ public class AdminUser extends User implements HIPAACompliantUser , HIPAAComplia
 	
 //... imports class definition...
     
-//    public AdminUser(Integer id, int pin) {
-//		super(id, pin);
-//		// TODO Auto-generated constructor stub
-//	}
+
     public AdminUser(Integer id, String role) {
     	super(id);
     	this.role = role;
